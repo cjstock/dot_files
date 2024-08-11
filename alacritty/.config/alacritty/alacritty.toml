@@ -1,0 +1,6 @@
+[font]
+normal = { family = "MonaspiceKr Nerd Font", style = "Regular" }
+
+[window]
+decorations = "None"
+startup_mode = "Fullscreen"

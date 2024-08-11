@@ -1,0 +1,9 @@
+layout {
+    tab cwd="/home/b1nar1us/dev/ruffee/" focus=true
+    tab cwd="/home/b1nar1us/dev/ruffee/" split_direction="horizontal" {
+        pane size="50%"
+        pane size="25%"
+        pane size="25%"
+    }
+
+}

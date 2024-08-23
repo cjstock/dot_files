@@ -252,26 +252,26 @@ plugins {
 // For more examples, see: https://github.com/zellij-org/zellij/tree/main/example/themes
 // Once these themes are defined, one of them should to be selected in the "theme" section of this file
 //
-// themes {
-//     dracula {
-//         fg 248 248 242
-//         bg 40 42 54
-//         red 255 85 85
-//         green 80 250 123
-//         yellow 241 250 140
-//         blue 98 114 164
-//         magenta 255 121 198
-//         orange 255 184 108
-//         cyan 139 233 253
-//         black 0 0 0
-//         white 255 255 255
-//     }
-// }
+themes {
+	melange-dark {
+		fg  "#ECE1D7"
+		bg  "#292522"
+		black "#34302C"
+		red "#BD8183"
+		green "#78997A"
+		yellow "#E49B5D"
+		blue "#7F91B2"
+		magenta "#B380B0"
+		cyan "#7B9695"
+		white "#C1A78E"
+		orange "#7B9695"
+	}
+}
 
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
- // theme "rose-pine-moon"
+theme "melange-dark"
 
 // The name of the default layout to load on startup
 // Default: "default"
@@ -342,7 +342,7 @@ copy_command "xclip -selection clipboard" // x11
 
 // The folder in which Zellij will look for themes
 //
- theme_dir "/home/b1nar1us/.config/zellij/themes/"
+ // theme_dir "/home/cstock/.config/zellij/themes/"
 
 // Enable or disable the rendering of styled and colored underlines (undercurl).
 // May need to be disabled for certain unsupported terminals
